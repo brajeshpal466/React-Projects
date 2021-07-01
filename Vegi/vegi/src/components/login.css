@@ -1,0 +1,27 @@
+.response{
+
+    height: 50px;
+   line-height: 50px;
+  } 
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}.login-form .form-body{
+    box-shadow:  1px 1px 1px 1px rgb(184, 168, 137);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 300px;   
+    border-radius: 5px;
+}.login-form .form-body .fa-lock{
+  font-size: 30px;
+}.login-form .form-body input{
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    border:none;
+}

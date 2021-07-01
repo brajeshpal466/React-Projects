@@ -1,0 +1,23 @@
+.container{
+  text-align: center;
+}.inc-btn {  
+   width:  50px;
+   height: 40px;
+   padding: 10px;
+   border : 0px solid black;
+   color: blue;
+   background-color: rgb(171, 223, 223);
+}.dec-btn {
+  color: blue;
+  width:  50px;
+  height: 40px;
+  padding: 10px;
+  background-color: rgb(171, 223, 223);;
+  border : 0px solid black;
+}.show{
+  width: 30px;
+  height: 30;
+   
+   text-align: center;
+  padding:11px;
+}

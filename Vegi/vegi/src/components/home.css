@@ -1,0 +1,69 @@
+.category{
+    background-color: rgba(37, 135, 12, 1);
+    height: 150px;  
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;  
+    border: 5px solid white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    box-shadow: wheat;
+    box-sizing: border-box;
+}.category .cate{
+cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 200px;
+  background-color:none;
+} .vegi-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 200px;
+}.banner-container{
+    display: flex;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: blue;
+    box-shadow: wheat;
+    box-sizing: border-box;
+    color: wheat;
+    align-items: center;
+    justify-content: space-between;
+}.banner-container .left-arrow{
+    display: flex;
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 1px;   
+    justify-content: center;
+}.banner-container .right-arrow{
+    display: flex;
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 1px;   
+    justify-content: center;
+}.left-shift{
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(135deg);
+    line-height: 50px;
+    
+}.right-shift{
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg);
+    line-height: 50px;
+    
+}

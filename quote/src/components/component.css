@@ -1,0 +1,39 @@
+.main_menu_bar{
+    width: 100%;
+    height: 50px;
+    display:  flex;
+    background-color: rgba(0, 20,30, .5);
+    flex-direction: row;
+    justify-content: space-between;
+}.menu_list{
+    
+}.menu_list ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    
+}.menu_list ul li{
+    margin-right: 20px;
+    color:  #ffffff;
+}
+.brand_name{
+ margin-left: 1rem;
+    justify-content: start;
+    color: #ffffff;
+    line-height: 50px;
+}#cards{
+   padding: 10px;
+   height: 500px;
+   width: 300px;
+}body{
+    overflow-x:hidden;
+}.searchzone{
+    width: 100%;
+    height:50px;
+}.search-bar{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}

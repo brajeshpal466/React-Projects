@@ -1,0 +1,17 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}*{
+  padding: 0px;
+  margin: 0px;
+}.space{
+height: 55px;
+width: 100%;
+
+}.footer{
+  position: absolute;
+  bottom: 0px;
+  display: inline-block;
+  
+  background-color:rgba(37, 135, 12, 1) ;
+}

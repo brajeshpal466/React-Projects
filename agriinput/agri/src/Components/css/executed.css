@@ -1,0 +1,30 @@
+.executed-tab{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-left: 10%;
+}.executed-tab .exe-link{
+  width: 20%;
+  height: 40px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  line-height: 40px;
+  background-color: #595959;
+} .executed-tab .exe-link.active{
+  background-color:rgb(201, 190, 177);
+}.genrateop-list-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}.genrateop-list-container .genrateop-heading{
+   display: flex;
+   margin-top: 10px;
+   padding: 5px;
+    justify-content: space-evenly;   
+   text-align: center; 
+   border-bottom: 1px solid #595959;
+}
+

@@ -1,0 +1,32 @@
+.navbar{
+    height: 50px;
+    background-color: rgb(228, 54, 10);
+    box-shadow: 1px  1px  1px beige;
+    text-align: left;
+    line-height: 50px;
+}.navbar .log-out{
+    background-color: white;
+    color: red;
+    box-shadow: 1px 1px 1px 1px red;
+    padding: 3px;
+}.container{
+    text-align: center;
+    width: 400px;    
+    margin-bottom: 5px;
+    height: 200px;
+}
+.form-control{
+    padding: 2px;   
+}
+.slot-container{
+ display: grid  ;
+ grid-template-columns:  repeat(6,auto)  ;
+ grid-row-gap: 5px;   
+ 
+}.slot-box{
+    width: 50px;
+    height: 22px;
+    box-shadow: 1px 1px 1px 1px rgb(179, 168, 168);
+     border-radius: 3px;
+    padding: 2px;
+}

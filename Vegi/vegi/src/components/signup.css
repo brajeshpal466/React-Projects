@@ -1,0 +1,32 @@
+.response{
+  width: 100%;
+  height: 50px;
+ line-height: 50px;
+}
+.signup-body{
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+    
+}.signup-body .signup-form{
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+   justify-content: space-around;
+   height: 400px;
+   width: 300px;
+   box-shadow:  1px 1px 1px 1px rgb(184, 168, 137);
+   width: 400px;
+
+}.signup-body .signup-form .fa-user{
+    font-size: 30px;
+  
+}.signup-body .signup-form input{
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    padding: 3px;
+    border:none;
+}

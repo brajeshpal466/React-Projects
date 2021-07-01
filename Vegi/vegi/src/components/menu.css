@@ -1,0 +1,172 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(37, 135, 12, 1);
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    color: white;
+    position: sticky;
+
+}.logo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}.logo h3 .title{
+ text-decoration: none;
+ color: white;
+}
+.menu{
+
+    position: absolute;
+    display: block;
+    color: white;
+    top: 50px;
+    width: 200px;
+    display: flex;
+    right: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color:rgba(240,241,236,1);;
+   border-radius: 3px;
+   display: block;
+   color: black;
+   visibility:hidden;
+   z-index: -1;
+   transition:  .5s ease-in;
+}.menu.active{
+    visibility: visible;
+    z-index: 1;
+    transition: all .5s ease-out ;
+}
+.menu .link-in{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid wheat; 
+}
+.login-container{
+    position: absolute;
+    border-radius: 3px;
+    top: 50px;
+    background-color:rgba(240,241,236,1);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 20%;
+    color: black;
+    visibility: hidden;
+    z-index: -3 ;
+    transition: all .5s ease-in;
+}.login-container.active{
+   visibility: visible;
+   z-index: 1;
+   transition: all .5s ease-out ;
+}
+.login-container .personal{
+    padding: 10px;
+    border-bottom: 1px solid wheat;
+    
+}
+.login-btn-arrow{
+   
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}.login{   
+    justify-items: center;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    border-radius: 2px;
+    background-color:white;
+    color:rgba(37, 135, 12, 1); 
+   text-decoration: none;
+   font: bold;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}arrow-login {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    line-height: 50px;
+    transition: 1s;
+}
+.arrow{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    line-height: 50px;
+    transition: 1s;
+}.arrow-login .active{
+    transition: .5s;
+    transform: rotate(45deg);
+}
+.navbar .more{
+   
+}
+.cart{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .cart{
+cursor: pointer;
+}.navbar .more{
+cursor: pointer;
+}
+    
+
+.search-bar{
+    width: 400px;
+    height: 30px;
+    outline: none;
+    line-height: 50px;
+    border-radius: 5px;
+}
+@media(max-width:700px) {
+.navbar{
+    text-align: center;
+    justify-content: space-between;
+     flex-direction: row;
+    height: 100px;
+}
+.search-bar {
+ position: absolute;
+ bottom: 10px;
+ max-width: 700px;
+ display: inline;
+ line-height: 20px;
+ 
+}
+.hamberger{
+display: flex;
+justify-content: left;
+ flex-direction: column;
+ align-items: center;
+}.login-container{
+    display: none;
+}
+.hamberger .hm1{
+    width: 30px;
+    height: 1px;
+    padding: 1px;
+    margin: 2px;
+    border-radius: 2px;
+    background-color: white;   
+}.login{
+    display: none;
+}.more{
+    display: none;
+}.menu{
+    display: none;
+}
+}

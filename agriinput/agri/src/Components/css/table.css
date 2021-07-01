@@ -1,0 +1,50 @@
+.mytable{
+    width: 100%;
+}.mytable .table-heading{
+    background-color: black;
+    color: white;
+    height: 40px;
+}.mytable .table-heading tr .srno {
+    width: 40px;
+    text-align: center;
+}
+.mytable .table-body{
+    
+    text-align: left;
+    
+}.mytable .table-body tr td #product-img{
+height: 35px;
+
+}
+.mytable .table-body tr:nth-child(2n+1){
+    height: 40px;
+    background-color: rgb(211, 205, 205);
+}.mytable .table-body tr:nth-child(2n){
+    background-color: rgb(182, 164, 164);
+   height: 40px;
+}.mytable .table-body tr .popup{
+    height: 40px;
+    width: 40px;
+}#modelpop{
+    z-index: 2;
+   position: absolute;
+   top: 20%;
+   right: 20%;
+   width: 50%;
+   height: 70%;
+   background-color: rgb(211, 225, 228);
+   display: none;
+}#modelpop.active{
+    display: block;
+}.popdetail-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}.popdetail-container img{
+    width: 100px;
+    height: 150px;
+}.popdetail-container h3{
+    border-bottom: 1px solid red;
+    color: red;
+}

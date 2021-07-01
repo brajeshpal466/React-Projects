@@ -1,0 +1,42 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}*{
+    margin: 0px;
+    padding :0px;
+}.navbar{   
+      color: white;
+      display: flex;
+     flex-direction: row;   
+    height: 50px;
+    justify-content: space-around;
+    background-color: rgb(34, 32, 30);
+    box-shadow: 1px 1px 0px 2px beige;
+    align-items: center;
+    padding: 5px;
+    }.navbar .brand-name{
+        font-size: 30px;
+        font-family:'Noto Serif', serif; ;
+        font-weight: bold;
+        color: rgb(245, 235, 235);
+    }.navbar .login{
+        color: white;
+    }.navbar Link{
+      color: white;     
+      text-decoration: none;   
+    }.navbar .nav-about .active{
+        background-color: greenyellow;
+    }.trans-list{
+        width:200px;
+        background-color: aquamarine;
+        height: 30px;
+        border-radius: 2px;
+        padding: 2px;
+        margin: 2px;
+    }.trans-list .del-list{
+        float: right;
+        background-color: red;
+        height: 100%;
+        
+        border-radius: 2px;
+    }
